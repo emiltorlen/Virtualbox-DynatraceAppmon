@@ -7,8 +7,9 @@ then
     echo "Puppet Master is already installed. Exiting..."
 else
     # Install Puppet Master
-    wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb && \
-    sudo dpkg -i puppetlabs-release-trusty.deb && \
+    # wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb && \
+    wget https://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb && \
+    sudo dpkg -i puppetlabs-release-pc1-trusty.deb && \
     sudo apt-get update -yq && sudo apt-get upgrade -yq && \
     sudo apt-get install -yq puppetmaster
  
