@@ -1,0 +1,25 @@
+{
+	"author": "Gary A. Stafford",
+	"dependencies": [],
+	"license": "Apache-2.0",
+	"name": "garystafford-fig",
+	"operatingsystem_support": [{
+			"operatingsystem": "Ubuntu",
+			"operatingsystemrelease": [ "12.04",
+				"14.04", "14.10"
+			]
+		},{
+			"operatingsystem": "CentOS",
+			"operatingsystemrelease": [ "6.6"
+			]
+		}
+	],
+	"project_page": "https://github.com/garystafford/garystafford-fig",
+	"requirements": [],
+	"source": "https://github.com/garystafford/garystafford-fig",
+	"issues_url": "https://github.com/garystafford/garystafford-fig/issues",
+	"summary": "Downloads and installs Fig (http://www.fig.sh)",
+	"tags": [ "fig", "Docker", "container"
+	],
+	"version": "0.2.2"
+}

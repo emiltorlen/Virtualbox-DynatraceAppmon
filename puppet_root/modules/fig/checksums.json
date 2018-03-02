@@ -1,0 +1,11 @@
+{
+  "README.markdown": "a9311e3097b58653d8e23a72f01d7f8d",
+  "metadata.json": "a962e69bd624d1461d112100c6541e2b",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+  "Rakefile": "be0f6ad9446b7b16f648c425de8e7310",
+  "manifests/init.pp": "34e91ad82a6f0ebfbae437c08ad2d443",
+  "CHANGELOG.md": "54e910970a8bfdd24edad433e5e8f466",
+  "LICENSE": "d2794c0df5b907fdace235a619d80314",
+  "tests/init.pp": "7720b40772589a5f1546bdc4b4096b7c"
+}
