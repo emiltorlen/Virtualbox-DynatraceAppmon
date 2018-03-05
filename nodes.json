@@ -3,7 +3,7 @@
     "puppet.example.com": {
       ":ip": "192.168.32.5",
       "ports": [],
-      ":memory": 1024,
+      ":memory": 4096,
       ":bootstrap": "bootstrap-master.sh"
     },
     // "node01.example.com": {
@@ -12,12 +12,12 @@
     //   ":memory": 1024,
     //   ":bootstrap": "bootstrap-node.sh"
     // },
-    // "node02.example.com": {
-    //   ":ip": "192.168.32.20",
-    //   "ports": [],
-    //   ":memory": 1024,
-    //   ":bootstrap": "bootstrap-node.sh"
-    // },
+    "server.example.com": {
+      ":ip": "192.168.32.20",
+      "ports": [],
+      ":memory": 4024,
+      ":bootstrap": "bootstrap-node.sh"
+    },
     "collector01.example.com": {
       ":ip": "192.168.32.21",
       "ports": [{":host":10004,":guest":9998,":id":"collector"}],
