@@ -14,13 +14,13 @@
     },
     "collector01.example.com": {
       ":ip": "192.168.32.21",
-      "ports": [{":host":10004,":guest":9998,":id":"collector"}],
+      "ports": [{":host":10008,":guest":9998,":id":"collector"}],
       ":memory": 1024,
       ":bootstrap": "bootstrap-node.sh"
     },
       "collector02.example.com": {
       ":ip": "192.168.32.10",
-      "ports": [],
+      "ports": [{":host":10009,":guest":9998,":id":"collector"}],
       ":memory": 1024,
       ":bootstrap": "bootstrap-node.sh"
     }

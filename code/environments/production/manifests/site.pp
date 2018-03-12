@@ -22,7 +22,8 @@ node default {
 node /^collector..\.example\.com$/ {
   exec{'ppa:java':
     command => "sudo add-apt-repository ppa:webupd8team/java -y && sudo apt-get update && sudo apt-get install oracle-java8-installer -y",
-    path => "/usr/bin/"
+    path => "/usr/bin/",
+    before => [Class['dynatraceappmon::role::collector']]
   }
   
   class { 'dynatraceappmon::role::collector':

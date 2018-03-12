@@ -38,6 +38,12 @@ else
     echo "192.168.32.21   collector01.example.com  collector" | sudo tee --append /etc/hosts 2> /dev/null && \
     # Add optional alternate DNS names to /etc/puppet/puppet.conf
     sudo sed -i 's/.*\[main\].*/&\ndns_alt_names = puppet,puppet.example.com/' /etc/puppet/puppet.conf
+
+
+
+    #remove questions for oracle-java installation
+    sudo echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
+    sudo echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
  
     # Install some initial puppet modules on Puppet Master server
     sudo puppet module install puppetlabs-ntp
